@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "write filename"
+
+read filename
+
+echo "#!/bin/bash" > ${filename}
+
+echo "write your code"
+
+read mycode
+
+echo ${mycode} >> ${filename}
+
+chmod +x ${filename}
+
+git add .
+git commit -m "a"
+git push
