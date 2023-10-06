@@ -5,7 +5,7 @@
  *Description: using quote
  *	write(int fd,const void *buf ,size_t count)
  *
- *Return: 1 (fail)
+ *Return: 1 (not success)
 */
 
 int main(void)
