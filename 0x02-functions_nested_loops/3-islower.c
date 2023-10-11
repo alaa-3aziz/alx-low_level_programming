@@ -4,12 +4,13 @@
  *_islower - function to check if
  *	character is lowercase
  *
- *@c: checks input of function
+ *@c: checks input of functin
  *
- *return: returns 1 if "c" is lowercase if not return 0 (success)
+ *Return: returns 1 if "c" is lowercase
+ *	otherwise always 0(success)
 */
 
-void _islower(int c)
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 		return (1);
