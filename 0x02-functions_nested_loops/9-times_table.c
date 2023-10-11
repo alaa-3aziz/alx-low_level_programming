@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *time_table - prints the 9 time table
+ *times_table - prints the 9 time table
  *
- *Example table
+ *Example Table
  *0, 0, 0, 0, ..
  *0, 1, 2, 3, ..
  *
@@ -32,7 +32,7 @@ void times_table(void)
 			else
 				_putchar((prod / 10) + 48); /*get the first digit*/
 
-				_putchar((prod % 10) + 48); /*get the second digit*/
+			_putchar((prod % 10) + 48); /*get the second digit*/
 		}
 		_putchar('\n');
 	}
