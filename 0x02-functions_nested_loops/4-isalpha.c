@@ -5,7 +5,7 @@
  *
  *@c: takes input from other functions
  *
- *return: returns 1 is c if true else 0
+ *Return: returns 1 is c if true else 0
 */
 
 int _isalpha(int c)
