@@ -1,5 +1,5 @@
 #include "lists.h"
-#include "main.c"
+#include "main.h"
 
 /**
  * print_listint_safe - prints a linked list, safely
