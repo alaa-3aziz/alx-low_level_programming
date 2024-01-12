@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo "finished"
-
-git add . 
-
-git commit -m "finished"
-
-git push
